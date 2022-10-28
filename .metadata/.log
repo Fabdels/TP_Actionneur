@@ -106,3 +106,136 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 D:\Travail\ENSEA\Local
 
 !ENTRY org.eclipse.cdt.core 1 0 2022-10-28 13:49:43.658
 !MESSAGE Indexed 'TP_systeme_actionneurs' (26 sources, 121 headers) in 5,54 sec: 13 797 declarations; 78 250 references; 3 unresolved inclusions; 46 syntax errors; 171 unresolved names (0,19 %)
+!SESSION 2022-10-28 15:54:36.452 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  D:\Travail\ENSEA\Local_Github_rep\TP_Actionneur\TP_systeme_actionneurs\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 D:\Travail\ENSEA\Local_Github_rep\TP_Actionneur\TP_systeme_actionneurs\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-10-28 15:54:48.785
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-10-28 15:54:48.837
+!MESSAGE Log4j initialized with config file D:\Travail\ENSEA\Local_Github_rep\TP_Actionneur\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-10-28 15:54:53.018
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-28 15:54:57.270
+!MESSAGE Indexed 'TP_systeme_actionneurs' (26 sources, 121 headers) in 2,85 sec: 13 799 declarations; 78 296 references; 3 unresolved inclusions; 46 syntax errors; 171 unresolved names (0,19 %)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2022-10-28 16:08:35.251
+!MESSAGE Error in final launch sequence:
+
+Failed to execute MI command:
+target remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: Connection timed out.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+target remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: Connection timed out.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:252)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:326)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.Exception: localhost:61234: Connection timed out.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2022-10-28 16:08:35.252
+!MESSAGE Failed to execute MI command:
+target remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: Connection timed out.
+!STACK 0
+java.lang.Exception: localhost:61234: Connection timed out.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+!SESSION 2022-10-28 16:09:37.042 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  D:\Travail\ENSEA\Local_Github_rep\TP_Actionneur\TP_systeme_actionneurs\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 D:\Travail\ENSEA\Local_Github_rep\TP_Actionneur\TP_systeme_actionneurs\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-10-28 16:09:45.247
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-10-28 16:09:45.300
+!MESSAGE Log4j initialized with config file D:\Travail\ENSEA\Local_Github_rep\TP_Actionneur\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-10-28 16:09:49.881
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-28 16:09:53.020
+!MESSAGE Indexed 'TP_systeme_actionneurs' (26 sources, 121 headers) in 2,75 sec: 13 799 declarations; 78 296 references; 3 unresolved inclusions; 46 syntax errors; 171 unresolved names (0,19 %)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2022-10-28 16:10:14.587
+!MESSAGE Error in final launch sequence:
+
+Failed to execute MI command:
+target remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: Connection timed out.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+target remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: Connection timed out.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:252)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:326)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.Exception: localhost:61234: Connection timed out.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2022-10-28 16:10:14.588
+!MESSAGE Failed to execute MI command:
+target remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: Connection timed out.
+!STACK 0
+java.lang.Exception: localhost:61234: Connection timed out.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+!SESSION 2022-10-28 16:14:17.807 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  D:\Travail\ENSEA\Local_Github_rep\TP_Actionneur\TP_systeme_actionneurs\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 D:\Travail\ENSEA\Local_Github_rep\TP_Actionneur\TP_systeme_actionneurs\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-10-28 16:14:47.540
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-10-28 16:14:48.156
+!MESSAGE Log4j initialized with config file D:\Travail\ENSEA\Local_Github_rep\TP_Actionneur\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-10-28 16:15:14.421
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-28 16:15:21.113
+!MESSAGE Indexed 'TP_systeme_actionneurs' (26 sources, 121 headers) in 6,26 sec: 13 799 declarations; 78 296 references; 3 unresolved inclusions; 46 syntax errors; 171 unresolved names (0,19 %)
