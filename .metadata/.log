@@ -1,0 +1,19 @@
+!SESSION 2022-10-28 10:08:14.523 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  D:\Travail\ENSEA\Local_Github_rep\TP_Actionneur\TP_systeme_actionneurs\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 D:\Travail\ENSEA\Local_Github_rep\TP_Actionneur\TP_systeme_actionneurs\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-10-28 10:08:56.126
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-10-28 10:08:56.433
+!MESSAGE Log4j initialized with config file D:\Travail\ENSEA\Local_Github_rep\TP_Actionneur\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-10-28 10:09:02.811
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-28 10:09:12.657
+!MESSAGE Indexed 'TP_systeme_actionneurs' (26 sources, 120 headers) in 5,92 sec: 13 790 declarations; 74 953 references; 7 unresolved inclusions; 1 698 syntax errors; 1 686 unresolved names (1,9 %)

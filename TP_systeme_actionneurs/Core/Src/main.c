@@ -38,6 +38,7 @@
 #define UART_RX_BUFFER_SIZE 1
 #define CMD_BUFFER_SIZE 64
 #define MAX_ARGS 9
+#define MAX_SPEED_VALUE 1500
 // LF = line feed, saut de ligne
 #define ASCII_LF 0x0A
 // CR = carriage return, retour chariot
@@ -91,6 +92,7 @@ int main(void)
 	int		 	argc = 0;
 	char*		token;
 	int 		newCmdReady = 0;
+	int			speedValue = 0;
 
   /* USER CODE END 1 */
 
@@ -146,6 +148,8 @@ int main(void)
 		HAL_Delay(1000);
 		HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);*/
 		// uartRxReceived is set to 1 when a new character is received on uart 1
+
+
 		if(uartRxReceived){
 			switch(uartRxBuffer[0]){
 			// Nouvelle ligne, instruction à traiter
@@ -158,6 +162,29 @@ int main(void)
 					argv[argc++] = token;
 					token = strtok(NULL, " ");
 				}
+
+
+
+
+
+				if (argv[0] == "speed=")
+				{
+					HAL_GPIO_WritePin(GPIOC, ISO_RESET_Pin, GPIO_PIN_SET);
+				}
+
+				if (argv[0] == "speed=")
+				{
+					speedValue = 1000*(argv[1][0]-'0')+100*(argv[1][1]-'0')+10*(argv[1][2]-'0')+(argv[1][3]-'0');
+
+					if (speedValue > MAX_SPEED_VALUE)
+					{
+						speedValue = MAX_SPEED_VALUE;
+					}
+				}
+
+
+
+
 
 				idx_cmd = 0;
 				newCmdReady = 1;
