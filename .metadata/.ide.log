@@ -576,3 +576,10 @@
 2022-10-28 10:16:41,288 [INFO] IPUIPlugin:79 - create IPUIPlugin
 2022-10-28 10:16:41,700 [INFO] OpenFileManager:327 - Restore cursor
 2022-10-28 10:19:05,573 [INFO] Gpio:272 - dependency for GPIO [RCC, SYS, TIM1, USART2]
+2022-10-28 13:49:21,540 [INFO] Activator:177 - 
+
+
+2022-10-28 13:49:21,562 [INFO] Activator:178 - !SESSION log4j initialized
+2022-10-28 13:50:00,369 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-10-28 13:50:00,369 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-10-28 13:50:00,372 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.

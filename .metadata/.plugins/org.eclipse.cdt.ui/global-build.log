@@ -80,3 +80,17 @@ Finished building: default.size.stdout
  
 Finished building: TP_systeme_actionneurs.list
  
+13:45:40 **** Incremental Build of configuration Debug for project TP_systeme_actionneurs ****
+make -j12 all 
+arm-none-eabi-size   TP_systeme_actionneurs.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30592	    272	   1880	  32744	   7fe8	TP_systeme_actionneurs.elf
+Finished building: default.size.stdout
+ 
+13:50:23 **** Incremental Build of configuration Debug for project TP_systeme_actionneurs ****
+make -j12 all 
+arm-none-eabi-size   TP_systeme_actionneurs.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30592	    272	   1880	  32744	   7fe8	TP_systeme_actionneurs.elf
+Finished building: default.size.stdout
+ 
