@@ -34,11 +34,12 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-#define UART_TX_BUFFER_SIZE 64
+#define UART_TX_BUFFER_SIZE 200
 #define UART_RX_BUFFER_SIZE 1
 #define CMD_BUFFER_SIZE 64
 #define MAX_ARGS 9
-#define MAX_SPEED_VALUE 1500
+#define MAX_SPEED_VALUE 5312
+#define MAX_PULSE 5312
 // LF = line feed, saut de ligne
 #define ASCII_LF 0x0A
 // CR = carriage return, retour chariot
@@ -65,7 +66,16 @@ uint8_t cmdNotFound[]="Command not found\r\n";
 uint32_t uartRxReceived;
 uint8_t uartRxBuffer[UART_RX_BUFFER_SIZE];
 uint8_t uartTxBuffer[UART_TX_BUFFER_SIZE];
-
+uint8_t commandList[] =
+		"\r\nhelp:		affiche cette liste"
+		"\r\npinout:	affiche toutes les broches utilisées"
+		"\r\nstart:		allume l'étage de puissance du moteur"
+		"\r\nstop:		éteind l'étage de puissance du moteur";
+uint8_t pinList[] =
+		"\r\nPA8:		TIM1_Channel_1"
+		"\r\nPA11:		TIM1_Channel_1N"
+		"\r\nPA9:		TIM1_Channel_2"
+		"\r\nPA12:		TIM1_Channel_2N";
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -184,6 +194,19 @@ int main(void)
 		}
 
 		if(newCmdReady){
+
+			// Showing commands
+			if(strcmp(argv[0],"help")==0){
+				sprintf(uartTxBuffer,commandList);
+				HAL_UART_Transmit(&huart2, uartTxBuffer, sizeof(commandList), HAL_MAX_DELAY);
+			}
+			// Showing pinouts
+			else if(strcmp(argv[0],"pinout")==0){
+				sprintf(uartTxBuffer,pinList);
+				HAL_UART_Transmit(&huart2, uartTxBuffer, sizeof(pinList), HAL_MAX_DELAY);
+			}
+
+			// Switching the LED on or off
 			if(strcmp(argv[0],"set")==0){
 				if(strcmp(argv[1],"PA5")==0){
 					HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, atoi(argv[2]));
@@ -196,11 +219,22 @@ int main(void)
 				}
 			}
 
+			// Starting the motor
 			else if(strcmp(argv[0],"start")==0)
 			{
-			HAL_GPIO_WritePin(GPIOC, ISO_RESET_Pin, GPIO_PIN_SET);
+				sprintf(uartTxBuffer,"Power ON\r\n");
+				HAL_UART_Transmit(&huart2, uartTxBuffer, 32, HAL_MAX_DELAY);
 			}
 
+
+			// Stopping the motor
+			else if(strcmp(argv[0],"stop")==0)
+			{
+			sprintf(uartTxBuffer,"Power OFF\r\n");
+			HAL_UART_Transmit(&huart2, uartTxBuffer, 32, HAL_MAX_DELAY);
+			}
+
+			// Setting the speed of the motor
 			else if (strcmp(argv[0],"speed=")==0)
 			{
 				speedValue = 1000*(argv[1][0]-'0')+100*(argv[1][1]-'0')+10*(argv[1][2]-'0')+(argv[1][3]-'0');
@@ -211,6 +245,12 @@ int main(void)
 				}
 
 				TIM1->CCR1 = speedValue;
+
+				TIM1->CCR2 = MAX_PULSE - speedValue;
+
+				sprintf(uartTxBuffer,"Setting the speed to %d\r\n",speedValue);
+				HAL_UART_Transmit(&huart2, uartTxBuffer, 32, HAL_MAX_DELAY);
+
 
 			}
 
