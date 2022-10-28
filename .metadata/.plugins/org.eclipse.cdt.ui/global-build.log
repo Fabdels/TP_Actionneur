@@ -94,3 +94,1398 @@ arm-none-eabi-size   TP_systeme_actionneurs.elf
   30592	    272	   1880	  32744	   7fe8	TP_systeme_actionneurs.elf
 Finished building: default.size.stdout
  
+13:55:55 **** Incremental Build of configuration Debug for project TP_systeme_actionneurs ****
+make -j12 all 
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.o"
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32g4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32g4xx_hal_msp.d" -MT"Core/Src/stm32g4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32g4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32g4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32g4xx_it.d" -MT"Core/Src/stm32g4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32g4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32g4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32g4xx.d" -MT"Core/Src/system_stm32g4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32g4xx.o"
+arm-none-eabi-gcc "../Core/Src/tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/tim.d" -MT"Core/Src/tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/tim.o"
+arm-none-eabi-gcc "../Core/Src/usart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/usart.d" -MT"Core/Src/usart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usart.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:125:3: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  125 |   memset(argv,NULL,MAX_ARGS*sizeof(char*));
+      |   ^~~~~~
+../Core/Src/main.c:125:3: warning: incompatible implicit declaration of built-in function 'memset'
+../Core/Src/main.c:24:1: note: include '<string.h>' or provide a declaration of 'memset'
+   23 | #include "gpio.h"
+  +++ |+#include <string.h>
+   24 | 
+../Core/Src/main.c:125:15: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  125 |   memset(argv,NULL,MAX_ARGS*sizeof(char*));
+      |               ^~~~
+      |               |
+      |               void *
+../Core/Src/main.c:125:15: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:126:20: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  126 |   memset(cmdBuffer,NULL,CMD_BUFFER_SIZE*sizeof(char));
+      |                    ^~~~
+      |                    |
+      |                    void *
+../Core/Src/main.c:126:20: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:127:23: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  127 |   memset(uartRxBuffer,NULL,UART_RX_BUFFER_SIZE*sizeof(char));
+      |                       ^~~~
+      |                       |
+      |                       void *
+../Core/Src/main.c:127:23: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:128:23: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  128 |   memset(uartTxBuffer,NULL,UART_TX_BUFFER_SIZE*sizeof(char));
+      |                       ^~~~
+      |                       |
+      |                       void *
+../Core/Src/main.c:128:23: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:160:13: warning: implicit declaration of function 'strtok' [-Wimplicit-function-declaration]
+  160 |     token = strtok(cmdBuffer, " ");
+      |             ^~~~~~
+../Core/Src/main.c:160:11: warning: assignment to 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  160 |     token = strtok(cmdBuffer, " ");
+      |           ^
+../Core/Src/main.c:163:12: warning: assignment to 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  163 |      token = strtok(NULL, " ");
+      |            ^
+../Core/Src/main.c:170:17: warning: comparison with string literal results in unspecified behavior [-Waddress]
+  170 |     if (argv[0] == "speed=")
+      |                 ^~
+../Core/Src/main.c:175:17: warning: comparison with string literal results in unspecified behavior [-Waddress]
+  175 |     if (argv[0] == "speed=")
+      |                 ^~
+../Core/Src/main.c:206:7: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+  206 |    if(strcmp(argv[0],"set")==0){
+      |       ^~~~~~
+../Core/Src/main.c:208:48: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+  208 |      HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, atoi(argv[2]));
+      |                                                ^~~~
+../Core/Src/main.c:209:6: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  209 |      sprintf(uartTxBuffer,"Switch on/off led : %d\r\n",atoi(argv[2]));
+      |      ^~~~~~~
+../Core/Src/main.c:209:6: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:24:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   23 | #include "gpio.h"
+  +++ |+#include <stdio.h>
+   24 | 
+../Core/Src/main.c:209:14: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  209 |      sprintf(uartTxBuffer,"Switch on/off led : %d\r\n",atoi(argv[2]));
+      |              ^~~~~~~~~~~~
+      |              |
+      |              uint8_t * {aka unsigned char *}
+../Core/Src/main.c:209:14: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+arm-none-eabi-gcc -o "TP_systeme_actionneurs.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Travail\ENSEA\Local_Github_rep\TP_Actionneur\TP_systeme_actionneurs\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP_systeme_actionneurs.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP_systeme_actionneurs.elf
+ 
+arm-none-eabi-size   TP_systeme_actionneurs.elf 
+arm-none-eabi-objdump -h -S  TP_systeme_actionneurs.elf  > "TP_systeme_actionneurs.list"
+   text	   data	    bss	    dec	    hex	filename
+  30592	    272	   1880	  32744	   7fe8	TP_systeme_actionneurs.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP_systeme_actionneurs.list
+ 
+13:57:20 **** Incremental Build of configuration Debug for project TP_systeme_actionneurs ****
+make -j12 all 
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.o"
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32g4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32g4xx_hal_msp.d" -MT"Core/Src/stm32g4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32g4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32g4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32g4xx_it.d" -MT"Core/Src/stm32g4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32g4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32g4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32g4xx.d" -MT"Core/Src/system_stm32g4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32g4xx.o"
+arm-none-eabi-gcc "../Core/Src/tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/tim.d" -MT"Core/Src/tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/tim.o"
+arm-none-eabi-gcc "../Core/Src/usart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/usart.d" -MT"Core/Src/usart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usart.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:125:3: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  125 |   memset(argv,NULL,MAX_ARGS*sizeof(char*));
+      |   ^~~~~~
+../Core/Src/main.c:125:3: warning: incompatible implicit declaration of built-in function 'memset'
+../Core/Src/main.c:24:1: note: include '<string.h>' or provide a declaration of 'memset'
+   23 | #include "gpio.h"
+  +++ |+#include <string.h>
+   24 | 
+../Core/Src/main.c:125:15: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  125 |   memset(argv,NULL,MAX_ARGS*sizeof(char*));
+      |               ^~~~
+      |               |
+      |               void *
+../Core/Src/main.c:125:15: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:126:20: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  126 |   memset(cmdBuffer,NULL,CMD_BUFFER_SIZE*sizeof(char));
+      |                    ^~~~
+      |                    |
+      |                    void *
+../Core/Src/main.c:126:20: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:127:23: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  127 |   memset(uartRxBuffer,NULL,UART_RX_BUFFER_SIZE*sizeof(char));
+      |                       ^~~~
+      |                       |
+      |                       void *
+../Core/Src/main.c:127:23: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:128:23: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  128 |   memset(uartTxBuffer,NULL,UART_TX_BUFFER_SIZE*sizeof(char));
+      |                       ^~~~
+      |                       |
+      |                       void *
+../Core/Src/main.c:128:23: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:160:13: warning: implicit declaration of function 'strtok' [-Wimplicit-function-declaration]
+  160 |     token = strtok(cmdBuffer, " ");
+      |             ^~~~~~
+../Core/Src/main.c:160:11: warning: assignment to 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  160 |     token = strtok(cmdBuffer, " ");
+      |           ^
+../Core/Src/main.c:163:12: warning: assignment to 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  163 |      token = strtok(NULL, " ");
+      |            ^
+../Core/Src/main.c:170:17: warning: comparison with string literal results in unspecified behavior [-Waddress]
+  170 |     if (argv[0] == "speed=")
+      |                 ^~
+../Core/Src/main.c:175:17: warning: comparison with string literal results in unspecified behavior [-Waddress]
+  175 |     if (argv[0] == "speed=")
+      |                 ^~
+../Core/Src/main.c:206:7: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+  206 |    if(strcmp(argv[0],"set")==0){
+      |       ^~~~~~
+../Core/Src/main.c:208:48: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+  208 |      HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, atoi(argv[2]));
+      |                                                ^~~~
+../Core/Src/main.c:209:6: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  209 |      sprintf(uartTxBuffer,"Switch on/off led : %d\r\n",atoi(argv[2]));
+      |      ^~~~~~~
+../Core/Src/main.c:209:6: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:24:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   23 | #include "gpio.h"
+  +++ |+#include <stdio.h>
+   24 | 
+../Core/Src/main.c:209:14: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  209 |      sprintf(uartTxBuffer,"Switch on/off led : %d\r\n",atoi(argv[2]));
+      |              ^~~~~~~~~~~~
+      |              |
+      |              uint8_t * {aka unsigned char *}
+../Core/Src/main.c:209:14: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+arm-none-eabi-gcc -o "TP_systeme_actionneurs.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Travail\ENSEA\Local_Github_rep\TP_Actionneur\TP_systeme_actionneurs\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP_systeme_actionneurs.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP_systeme_actionneurs.elf
+ 
+arm-none-eabi-size   TP_systeme_actionneurs.elf 
+arm-none-eabi-objdump -h -S  TP_systeme_actionneurs.elf  > "TP_systeme_actionneurs.list"
+   text	   data	    bss	    dec	    hex	filename
+  30592	    272	   1880	  32744	   7fe8	TP_systeme_actionneurs.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP_systeme_actionneurs.list
+ 
+14:06:45 **** Incremental Build of configuration Debug for project TP_systeme_actionneurs ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:126:3: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  126 |   memset(argv,NULL,MAX_ARGS*sizeof(char*));
+      |   ^~~~~~
+../Core/Src/main.c:126:3: warning: incompatible implicit declaration of built-in function 'memset'
+../Core/Src/main.c:24:1: note: include '<string.h>' or provide a declaration of 'memset'
+   23 | #include "gpio.h"
+  +++ |+#include <string.h>
+   24 | 
+../Core/Src/main.c:126:15: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  126 |   memset(argv,NULL,MAX_ARGS*sizeof(char*));
+      |               ^~~~
+      |               |
+      |               void *
+../Core/Src/main.c:126:15: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:127:20: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  127 |   memset(cmdBuffer,NULL,CMD_BUFFER_SIZE*sizeof(char));
+      |                    ^~~~
+      |                    |
+      |                    void *
+../Core/Src/main.c:127:20: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:128:23: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  128 |   memset(uartRxBuffer,NULL,UART_RX_BUFFER_SIZE*sizeof(char));
+      |                       ^~~~
+      |                       |
+      |                       void *
+../Core/Src/main.c:128:23: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:129:23: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  129 |   memset(uartTxBuffer,NULL,UART_TX_BUFFER_SIZE*sizeof(char));
+      |                       ^~~~
+      |                       |
+      |                       void *
+../Core/Src/main.c:129:23: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:161:13: warning: implicit declaration of function 'strtok' [-Wimplicit-function-declaration]
+  161 |     token = strtok(cmdBuffer, " ");
+      |             ^~~~~~
+../Core/Src/main.c:161:11: warning: assignment to 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  161 |     token = strtok(cmdBuffer, " ");
+      |           ^
+../Core/Src/main.c:164:12: warning: assignment to 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  164 |      token = strtok(NULL, " ");
+      |            ^
+../Core/Src/main.c:171:17: warning: comparison with string literal results in unspecified behavior [-Waddress]
+  171 |     if (argv[0] == "speed=")
+      |                 ^~
+../Core/Src/main.c:176:17: warning: comparison with string literal results in unspecified behavior [-Waddress]
+  176 |     if (argv[0] == "speed=")
+      |                 ^~
+../Core/Src/main.c:207:7: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+  207 |    if(strcmp(argv[0],"set")==0){
+      |       ^~~~~~
+../Core/Src/main.c:209:48: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+  209 |      HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, atoi(argv[2]));
+      |                                                ^~~~
+../Core/Src/main.c:210:6: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  210 |      sprintf(uartTxBuffer,"Switch on/off led : %d\r\n",atoi(argv[2]));
+      |      ^~~~~~~
+../Core/Src/main.c:210:6: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:24:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   23 | #include "gpio.h"
+  +++ |+#include <stdio.h>
+   24 | 
+../Core/Src/main.c:210:14: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  210 |      sprintf(uartTxBuffer,"Switch on/off led : %d\r\n",atoi(argv[2]));
+      |              ^~~~~~~~~~~~
+      |              |
+      |              uint8_t * {aka unsigned char *}
+../Core/Src/main.c:210:14: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+arm-none-eabi-gcc -o "TP_systeme_actionneurs.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Travail\ENSEA\Local_Github_rep\TP_Actionneur\TP_systeme_actionneurs\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP_systeme_actionneurs.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP_systeme_actionneurs.elf
+ 
+arm-none-eabi-size   TP_systeme_actionneurs.elf 
+arm-none-eabi-objdump -h -S  TP_systeme_actionneurs.elf  > "TP_systeme_actionneurs.list"
+   text	   data	    bss	    dec	    hex	filename
+  30600	    272	   1880	  32752	   7ff0	TP_systeme_actionneurs.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP_systeme_actionneurs.list
+ 
+14:07:31 **** Incremental Build of configuration Debug for project TP_systeme_actionneurs ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:124:3: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  124 |   memset(argv,NULL,MAX_ARGS*sizeof(char*));
+      |   ^~~~~~
+../Core/Src/main.c:124:3: warning: incompatible implicit declaration of built-in function 'memset'
+../Core/Src/main.c:24:1: note: include '<string.h>' or provide a declaration of 'memset'
+   23 | #include "gpio.h"
+  +++ |+#include <string.h>
+   24 | 
+../Core/Src/main.c:124:15: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  124 |   memset(argv,NULL,MAX_ARGS*sizeof(char*));
+      |               ^~~~
+      |               |
+      |               void *
+../Core/Src/main.c:124:15: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:125:20: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  125 |   memset(cmdBuffer,NULL,CMD_BUFFER_SIZE*sizeof(char));
+      |                    ^~~~
+      |                    |
+      |                    void *
+../Core/Src/main.c:125:20: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:126:23: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  126 |   memset(uartRxBuffer,NULL,UART_RX_BUFFER_SIZE*sizeof(char));
+      |                       ^~~~
+      |                       |
+      |                       void *
+../Core/Src/main.c:126:23: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:127:23: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  127 |   memset(uartTxBuffer,NULL,UART_TX_BUFFER_SIZE*sizeof(char));
+      |                       ^~~~
+      |                       |
+      |                       void *
+../Core/Src/main.c:127:23: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:159:13: warning: implicit declaration of function 'strtok' [-Wimplicit-function-declaration]
+  159 |     token = strtok(cmdBuffer, " ");
+      |             ^~~~~~
+../Core/Src/main.c:159:11: warning: assignment to 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  159 |     token = strtok(cmdBuffer, " ");
+      |           ^
+../Core/Src/main.c:162:12: warning: assignment to 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  162 |      token = strtok(NULL, " ");
+      |            ^
+../Core/Src/main.c:169:17: warning: comparison with string literal results in unspecified behavior [-Waddress]
+  169 |     if (argv[0] == "speed=")
+      |                 ^~
+../Core/Src/main.c:174:17: warning: comparison with string literal results in unspecified behavior [-Waddress]
+  174 |     if (argv[0] == "speed=")
+      |                 ^~
+../Core/Src/main.c:205:7: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+  205 |    if(strcmp(argv[0],"set")==0){
+      |       ^~~~~~
+../Core/Src/main.c:207:48: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+  207 |      HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, atoi(argv[2]));
+      |                                                ^~~~
+../Core/Src/main.c:208:6: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  208 |      sprintf(uartTxBuffer,"Switch on/off led : %d\r\n",atoi(argv[2]));
+      |      ^~~~~~~
+../Core/Src/main.c:208:6: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:24:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   23 | #include "gpio.h"
+  +++ |+#include <stdio.h>
+   24 | 
+../Core/Src/main.c:208:14: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  208 |      sprintf(uartTxBuffer,"Switch on/off led : %d\r\n",atoi(argv[2]));
+      |              ^~~~~~~~~~~~
+      |              |
+      |              uint8_t * {aka unsigned char *}
+../Core/Src/main.c:208:14: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+arm-none-eabi-gcc -o "TP_systeme_actionneurs.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Travail\ENSEA\Local_Github_rep\TP_Actionneur\TP_systeme_actionneurs\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP_systeme_actionneurs.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP_systeme_actionneurs.elf
+ 
+arm-none-eabi-size   TP_systeme_actionneurs.elf 
+arm-none-eabi-objdump -h -S  TP_systeme_actionneurs.elf  > "TP_systeme_actionneurs.list"
+   text	   data	    bss	    dec	    hex	filename
+  30364	    272	   1880	  32516	   7f04	TP_systeme_actionneurs.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP_systeme_actionneurs.list
+ 
+14:07:51 **** Incremental Build of configuration Debug for project TP_systeme_actionneurs ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:124:3: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  124 |   memset(argv,NULL,MAX_ARGS*sizeof(char*));
+      |   ^~~~~~
+../Core/Src/main.c:124:3: warning: incompatible implicit declaration of built-in function 'memset'
+../Core/Src/main.c:24:1: note: include '<string.h>' or provide a declaration of 'memset'
+   23 | #include "gpio.h"
+  +++ |+#include <string.h>
+   24 | 
+../Core/Src/main.c:124:15: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  124 |   memset(argv,NULL,MAX_ARGS*sizeof(char*));
+      |               ^~~~
+      |               |
+      |               void *
+../Core/Src/main.c:124:15: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:125:20: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  125 |   memset(cmdBuffer,NULL,CMD_BUFFER_SIZE*sizeof(char));
+      |                    ^~~~
+      |                    |
+      |                    void *
+../Core/Src/main.c:125:20: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:126:23: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  126 |   memset(uartRxBuffer,NULL,UART_RX_BUFFER_SIZE*sizeof(char));
+      |                       ^~~~
+      |                       |
+      |                       void *
+../Core/Src/main.c:126:23: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:127:23: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  127 |   memset(uartTxBuffer,NULL,UART_TX_BUFFER_SIZE*sizeof(char));
+      |                       ^~~~
+      |                       |
+      |                       void *
+../Core/Src/main.c:127:23: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:159:13: warning: implicit declaration of function 'strtok' [-Wimplicit-function-declaration]
+  159 |     token = strtok(cmdBuffer, " ");
+      |             ^~~~~~
+../Core/Src/main.c:159:11: warning: assignment to 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  159 |     token = strtok(cmdBuffer, " ");
+      |           ^
+../Core/Src/main.c:162:12: warning: assignment to 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  162 |      token = strtok(NULL, " ");
+      |            ^
+../Core/Src/main.c:169:17: warning: comparison with string literal results in unspecified behavior [-Waddress]
+  169 |     if (argv[0] == "speed=")
+      |                 ^~
+../Core/Src/main.c:174:17: warning: comparison with string literal results in unspecified behavior [-Waddress]
+  174 |     if (argv[0] == "speed=")
+      |                 ^~
+../Core/Src/main.c:205:7: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+  205 |    if(strcmp(argv[0],"set")==0){
+      |       ^~~~~~
+../Core/Src/main.c:207:48: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+  207 |      HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, atoi(argv[2]));
+      |                                                ^~~~
+../Core/Src/main.c:208:6: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  208 |      sprintf(uartTxBuffer,"Switch on/off led : %d\r\n",atoi(argv[2]));
+      |      ^~~~~~~
+../Core/Src/main.c:208:6: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:24:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   23 | #include "gpio.h"
+  +++ |+#include <stdio.h>
+   24 | 
+../Core/Src/main.c:208:14: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  208 |      sprintf(uartTxBuffer,"Switch on/off led : %d\r\n",atoi(argv[2]));
+      |              ^~~~~~~~~~~~
+      |              |
+      |              uint8_t * {aka unsigned char *}
+../Core/Src/main.c:208:14: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+arm-none-eabi-gcc -o "TP_systeme_actionneurs.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Travail\ENSEA\Local_Github_rep\TP_Actionneur\TP_systeme_actionneurs\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP_systeme_actionneurs.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP_systeme_actionneurs.elf
+ 
+arm-none-eabi-size   TP_systeme_actionneurs.elf 
+arm-none-eabi-objdump -h -S  TP_systeme_actionneurs.elf  > "TP_systeme_actionneurs.list"
+   text	   data	    bss	    dec	    hex	filename
+  30364	    272	   1880	  32516	   7f04	TP_systeme_actionneurs.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP_systeme_actionneurs.list
+ 
+14:08:58 **** Incremental Build of configuration Debug for project TP_systeme_actionneurs ****
+make -j12 all 
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.o"
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32g4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32g4xx_hal_msp.d" -MT"Core/Src/stm32g4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32g4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32g4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32g4xx_it.d" -MT"Core/Src/stm32g4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32g4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32g4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32g4xx.d" -MT"Core/Src/system_stm32g4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32g4xx.o"
+arm-none-eabi-gcc "../Core/Src/tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/tim.d" -MT"Core/Src/tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/tim.o"
+arm-none-eabi-gcc "../Core/Src/usart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/usart.d" -MT"Core/Src/usart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usart.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:123:3: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  123 |   memset(argv,NULL,MAX_ARGS*sizeof(char*));
+      |   ^~~~~~
+../Core/Src/main.c:123:3: warning: incompatible implicit declaration of built-in function 'memset'
+../Core/Src/main.c:24:1: note: include '<string.h>' or provide a declaration of 'memset'
+   23 | #include "gpio.h"
+  +++ |+#include <string.h>
+   24 | 
+../Core/Src/main.c:123:15: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  123 |   memset(argv,NULL,MAX_ARGS*sizeof(char*));
+      |               ^~~~
+      |               |
+      |               void *
+../Core/Src/main.c:123:15: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:124:20: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  124 |   memset(cmdBuffer,NULL,CMD_BUFFER_SIZE*sizeof(char));
+      |                    ^~~~
+      |                    |
+      |                    void *
+../Core/Src/main.c:124:20: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:125:23: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  125 |   memset(uartRxBuffer,NULL,UART_RX_BUFFER_SIZE*sizeof(char));
+      |                       ^~~~
+      |                       |
+      |                       void *
+../Core/Src/main.c:125:23: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:126:23: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  126 |   memset(uartTxBuffer,NULL,UART_TX_BUFFER_SIZE*sizeof(char));
+      |                       ^~~~
+      |                       |
+      |                       void *
+../Core/Src/main.c:126:23: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:158:13: warning: implicit declaration of function 'strtok' [-Wimplicit-function-declaration]
+  158 |     token = strtok(cmdBuffer, " ");
+      |             ^~~~~~
+../Core/Src/main.c:158:11: warning: assignment to 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  158 |     token = strtok(cmdBuffer, " ");
+      |           ^
+../Core/Src/main.c:161:12: warning: assignment to 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  161 |      token = strtok(NULL, " ");
+      |            ^
+../Core/Src/main.c:168:17: warning: comparison with string literal results in unspecified behavior [-Waddress]
+  168 |     if (argv[0] == "speed=")
+      |                 ^~
+../Core/Src/main.c:173:17: warning: comparison with string literal results in unspecified behavior [-Waddress]
+  173 |     if (argv[0] == "speed=")
+      |                 ^~
+../Core/Src/main.c:204:7: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+  204 |    if(strcmp(argv[0],"set")==0){
+      |       ^~~~~~
+../Core/Src/main.c:206:48: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+  206 |      HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, atoi(argv[2]));
+      |                                                ^~~~
+../Core/Src/main.c:207:6: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  207 |      sprintf(uartTxBuffer,"Switch on/off led : %d\r\n",atoi(argv[2]));
+      |      ^~~~~~~
+../Core/Src/main.c:207:6: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:24:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   23 | #include "gpio.h"
+  +++ |+#include <stdio.h>
+   24 | 
+../Core/Src/main.c:207:14: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  207 |      sprintf(uartTxBuffer,"Switch on/off led : %d\r\n",atoi(argv[2]));
+      |              ^~~~~~~~~~~~
+      |              |
+      |              uint8_t * {aka unsigned char *}
+../Core/Src/main.c:207:14: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+arm-none-eabi-gcc -o "TP_systeme_actionneurs.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Travail\ENSEA\Local_Github_rep\TP_Actionneur\TP_systeme_actionneurs\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP_systeme_actionneurs.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP_systeme_actionneurs.elf
+ 
+arm-none-eabi-size   TP_systeme_actionneurs.elf 
+arm-none-eabi-objdump -h -S  TP_systeme_actionneurs.elf  > "TP_systeme_actionneurs.list"
+   text	   data	    bss	    dec	    hex	filename
+  30356	    272	   1880	  32508	   7efc	TP_systeme_actionneurs.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP_systeme_actionneurs.list
+ 
+14:12:49 **** Incremental Build of configuration Debug for project TP_systeme_actionneurs ****
+make -j12 all 
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.o"
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32g4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32g4xx_hal_msp.d" -MT"Core/Src/stm32g4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32g4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32g4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32g4xx_it.d" -MT"Core/Src/stm32g4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32g4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32g4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32g4xx.d" -MT"Core/Src/system_stm32g4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32g4xx.o"
+arm-none-eabi-gcc "../Core/Src/tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/tim.d" -MT"Core/Src/tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/tim.o"
+arm-none-eabi-gcc "../Core/Src/usart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/usart.d" -MT"Core/Src/usart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usart.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:123:3: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  123 |   memset(argv,NULL,MAX_ARGS*sizeof(char*));
+      |   ^~~~~~
+../Core/Src/main.c:123:3: warning: incompatible implicit declaration of built-in function 'memset'
+../Core/Src/main.c:24:1: note: include '<string.h>' or provide a declaration of 'memset'
+   23 | #include "gpio.h"
+  +++ |+#include <string.h>
+   24 | 
+../Core/Src/main.c:123:15: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  123 |   memset(argv,NULL,MAX_ARGS*sizeof(char*));
+      |               ^~~~
+      |               |
+      |               void *
+../Core/Src/main.c:123:15: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:124:20: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  124 |   memset(cmdBuffer,NULL,CMD_BUFFER_SIZE*sizeof(char));
+      |                    ^~~~
+      |                    |
+      |                    void *
+../Core/Src/main.c:124:20: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:125:23: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  125 |   memset(uartRxBuffer,NULL,UART_RX_BUFFER_SIZE*sizeof(char));
+      |                       ^~~~
+      |                       |
+      |                       void *
+../Core/Src/main.c:125:23: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:126:23: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  126 |   memset(uartTxBuffer,NULL,UART_TX_BUFFER_SIZE*sizeof(char));
+      |                       ^~~~
+      |                       |
+      |                       void *
+../Core/Src/main.c:126:23: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:158:13: warning: implicit declaration of function 'strtok' [-Wimplicit-function-declaration]
+  158 |     token = strtok(cmdBuffer, " ");
+      |             ^~~~~~
+../Core/Src/main.c:158:11: warning: assignment to 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  158 |     token = strtok(cmdBuffer, " ");
+      |           ^
+../Core/Src/main.c:161:12: warning: assignment to 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  161 |      token = strtok(NULL, " ");
+      |            ^
+../Core/Src/main.c:168:17: warning: comparison with string literal results in unspecified behavior [-Waddress]
+  168 |     if (argv[0] == "speed=")
+      |                 ^~
+../Core/Src/main.c:173:17: warning: comparison with string literal results in unspecified behavior [-Waddress]
+  173 |     if (argv[0] == "speed=")
+      |                 ^~
+../Core/Src/main.c:204:7: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+  204 |    if(strcmp(argv[0],"set")==0){
+      |       ^~~~~~
+../Core/Src/main.c:206:48: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+  206 |      HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, atoi(argv[2]));
+      |                                                ^~~~
+../Core/Src/main.c:207:6: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  207 |      sprintf(uartTxBuffer,"Switch on/off led : %d\r\n",atoi(argv[2]));
+      |      ^~~~~~~
+../Core/Src/main.c:207:6: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:24:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   23 | #include "gpio.h"
+  +++ |+#include <stdio.h>
+   24 | 
+../Core/Src/main.c:207:14: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  207 |      sprintf(uartTxBuffer,"Switch on/off led : %d\r\n",atoi(argv[2]));
+      |              ^~~~~~~~~~~~
+      |              |
+      |              uint8_t * {aka unsigned char *}
+../Core/Src/main.c:207:14: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+arm-none-eabi-gcc -o "TP_systeme_actionneurs.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Travail\ENSEA\Local_Github_rep\TP_Actionneur\TP_systeme_actionneurs\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP_systeme_actionneurs.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP_systeme_actionneurs.elf
+ 
+arm-none-eabi-size   TP_systeme_actionneurs.elf 
+arm-none-eabi-objdump -h -S  TP_systeme_actionneurs.elf  > "TP_systeme_actionneurs.list"
+   text	   data	    bss	    dec	    hex	filename
+  30364	    272	   1880	  32516	   7f04	TP_systeme_actionneurs.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP_systeme_actionneurs.list
+ 
+14:14:24 **** Incremental Build of configuration Debug for project TP_systeme_actionneurs ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:125:3: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  125 |   memset(argv,NULL,MAX_ARGS*sizeof(char*));
+      |   ^~~~~~
+../Core/Src/main.c:125:3: warning: incompatible implicit declaration of built-in function 'memset'
+../Core/Src/main.c:24:1: note: include '<string.h>' or provide a declaration of 'memset'
+   23 | #include "gpio.h"
+  +++ |+#include <string.h>
+   24 | 
+../Core/Src/main.c:125:15: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  125 |   memset(argv,NULL,MAX_ARGS*sizeof(char*));
+      |               ^~~~
+      |               |
+      |               void *
+../Core/Src/main.c:125:15: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:126:20: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  126 |   memset(cmdBuffer,NULL,CMD_BUFFER_SIZE*sizeof(char));
+      |                    ^~~~
+      |                    |
+      |                    void *
+../Core/Src/main.c:126:20: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:127:23: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  127 |   memset(uartRxBuffer,NULL,UART_RX_BUFFER_SIZE*sizeof(char));
+      |                       ^~~~
+      |                       |
+      |                       void *
+../Core/Src/main.c:127:23: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:128:23: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  128 |   memset(uartTxBuffer,NULL,UART_TX_BUFFER_SIZE*sizeof(char));
+      |                       ^~~~
+      |                       |
+      |                       void *
+../Core/Src/main.c:128:23: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:160:13: warning: implicit declaration of function 'strtok' [-Wimplicit-function-declaration]
+  160 |     token = strtok(cmdBuffer, " ");
+      |             ^~~~~~
+../Core/Src/main.c:160:11: warning: assignment to 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  160 |     token = strtok(cmdBuffer, " ");
+      |           ^
+../Core/Src/main.c:163:12: warning: assignment to 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  163 |      token = strtok(NULL, " ");
+      |            ^
+../Core/Src/main.c:170:17: warning: comparison with string literal results in unspecified behavior [-Waddress]
+  170 |     if (argv[0] == "speed=")
+      |                 ^~
+../Core/Src/main.c:175:17: warning: comparison with string literal results in unspecified behavior [-Waddress]
+  175 |     if (argv[0] == "speed=")
+      |                 ^~
+../Core/Src/main.c:206:7: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+  206 |    if(strcmp(argv[0],"set")==0){
+      |       ^~~~~~
+../Core/Src/main.c:208:48: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+  208 |      HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, atoi(argv[2]));
+      |                                                ^~~~
+../Core/Src/main.c:209:6: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  209 |      sprintf(uartTxBuffer,"Switch on/off led : %d\r\n",atoi(argv[2]));
+      |      ^~~~~~~
+../Core/Src/main.c:209:6: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:24:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   23 | #include "gpio.h"
+  +++ |+#include <stdio.h>
+   24 | 
+../Core/Src/main.c:209:14: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  209 |      sprintf(uartTxBuffer,"Switch on/off led : %d\r\n",atoi(argv[2]));
+      |              ^~~~~~~~~~~~
+      |              |
+      |              uint8_t * {aka unsigned char *}
+../Core/Src/main.c:209:14: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+arm-none-eabi-gcc -o "TP_systeme_actionneurs.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Travail\ENSEA\Local_Github_rep\TP_Actionneur\TP_systeme_actionneurs\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP_systeme_actionneurs.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP_systeme_actionneurs.elf
+ 
+arm-none-eabi-size   TP_systeme_actionneurs.elf 
+arm-none-eabi-objdump -h -S  TP_systeme_actionneurs.elf  > "TP_systeme_actionneurs.list"
+   text	   data	    bss	    dec	    hex	filename
+  30844	    272	   1880	  32996	   80e4	TP_systeme_actionneurs.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP_systeme_actionneurs.list
+ 
+14:21:11 **** Incremental Build of configuration Debug for project TP_systeme_actionneurs ****
+make -j12 all 
+arm-none-eabi-size   TP_systeme_actionneurs.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30844	    272	   1880	  32996	   80e4	TP_systeme_actionneurs.elf
+Finished building: default.size.stdout
+ 
+14:21:58 **** Incremental Build of configuration Debug for project TP_systeme_actionneurs ****
+make -j12 all 
+arm-none-eabi-size   TP_systeme_actionneurs.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30844	    272	   1880	  32996	   80e4	TP_systeme_actionneurs.elf
+Finished building: default.size.stdout
+ 
+14:22:36 **** Incremental Build of configuration Debug for project TP_systeme_actionneurs ****
+make -j12 all 
+arm-none-eabi-size   TP_systeme_actionneurs.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30844	    272	   1880	  32996	   80e4	TP_systeme_actionneurs.elf
+Finished building: default.size.stdout
+ 
+14:26:22 **** Incremental Build of configuration Debug for project TP_systeme_actionneurs ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:125:3: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  125 |   memset(argv,NULL,MAX_ARGS*sizeof(char*));
+      |   ^~~~~~
+../Core/Src/main.c:125:3: warning: incompatible implicit declaration of built-in function 'memset'
+../Core/Src/main.c:24:1: note: include '<string.h>' or provide a declaration of 'memset'
+   23 | #include "gpio.h"
+  +++ |+#include <string.h>
+   24 | 
+../Core/Src/main.c:125:15: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  125 |   memset(argv,NULL,MAX_ARGS*sizeof(char*));
+      |               ^~~~
+      |               |
+      |               void *
+../Core/Src/main.c:125:15: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:126:20: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  126 |   memset(cmdBuffer,NULL,CMD_BUFFER_SIZE*sizeof(char));
+      |                    ^~~~
+      |                    |
+      |                    void *
+../Core/Src/main.c:126:20: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:127:23: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  127 |   memset(uartRxBuffer,NULL,UART_RX_BUFFER_SIZE*sizeof(char));
+      |                       ^~~~
+      |                       |
+      |                       void *
+../Core/Src/main.c:127:23: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:128:23: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  128 |   memset(uartTxBuffer,NULL,UART_TX_BUFFER_SIZE*sizeof(char));
+      |                       ^~~~
+      |                       |
+      |                       void *
+../Core/Src/main.c:128:23: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:160:13: warning: implicit declaration of function 'strtok' [-Wimplicit-function-declaration]
+  160 |     token = strtok(cmdBuffer, " ");
+      |             ^~~~~~
+../Core/Src/main.c:160:11: warning: assignment to 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  160 |     token = strtok(cmdBuffer, " ");
+      |           ^
+../Core/Src/main.c:163:12: warning: assignment to 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  163 |      token = strtok(NULL, " ");
+      |            ^
+../Core/Src/main.c:187:7: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+  187 |    if(strcmp(argv[0],"set")==0){
+      |       ^~~~~~
+../Core/Src/main.c:189:48: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+  189 |      HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, atoi(argv[2]));
+      |                                                ^~~~
+../Core/Src/main.c:190:6: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  190 |      sprintf(uartTxBuffer,"Switch on/off led : %d\r\n",atoi(argv[2]));
+      |      ^~~~~~~
+../Core/Src/main.c:190:6: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:24:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   23 | #include "gpio.h"
+  +++ |+#include <stdio.h>
+   24 | 
+../Core/Src/main.c:190:14: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  190 |      sprintf(uartTxBuffer,"Switch on/off led : %d\r\n",atoi(argv[2]));
+      |              ^~~~~~~~~~~~
+      |              |
+      |              uint8_t * {aka unsigned char *}
+../Core/Src/main.c:190:14: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/main.c:198:17: warning: comparison with string literal results in unspecified behavior [-Waddress]
+  198 |     if (argv[0] == "speed=")
+      |                 ^~
+arm-none-eabi-gcc -o "TP_systeme_actionneurs.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Travail\ENSEA\Local_Github_rep\TP_Actionneur\TP_systeme_actionneurs\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP_systeme_actionneurs.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP_systeme_actionneurs.elf
+ 
+arm-none-eabi-size   TP_systeme_actionneurs.elf 
+arm-none-eabi-objdump -h -S  TP_systeme_actionneurs.elf  > "TP_systeme_actionneurs.list"
+   text	   data	    bss	    dec	    hex	filename
+  30860	    272	   1880	  33012	   80f4	TP_systeme_actionneurs.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP_systeme_actionneurs.list
+ 
+14:26:46 **** Incremental Build of configuration Debug for project TP_systeme_actionneurs ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:125:3: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  125 |   memset(argv,NULL,MAX_ARGS*sizeof(char*));
+      |   ^~~~~~
+../Core/Src/main.c:125:3: warning: incompatible implicit declaration of built-in function 'memset'
+../Core/Src/main.c:24:1: note: include '<string.h>' or provide a declaration of 'memset'
+   23 | #include "gpio.h"
+  +++ |+#include <string.h>
+   24 | 
+../Core/Src/main.c:125:15: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  125 |   memset(argv,NULL,MAX_ARGS*sizeof(char*));
+      |               ^~~~
+      |               |
+      |               void *
+../Core/Src/main.c:125:15: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:126:20: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  126 |   memset(cmdBuffer,NULL,CMD_BUFFER_SIZE*sizeof(char));
+      |                    ^~~~
+      |                    |
+      |                    void *
+../Core/Src/main.c:126:20: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:127:23: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  127 |   memset(uartRxBuffer,NULL,UART_RX_BUFFER_SIZE*sizeof(char));
+      |                       ^~~~
+      |                       |
+      |                       void *
+../Core/Src/main.c:127:23: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:128:23: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  128 |   memset(uartTxBuffer,NULL,UART_TX_BUFFER_SIZE*sizeof(char));
+      |                       ^~~~
+      |                       |
+      |                       void *
+../Core/Src/main.c:128:23: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:160:13: warning: implicit declaration of function 'strtok' [-Wimplicit-function-declaration]
+  160 |     token = strtok(cmdBuffer, " ");
+      |             ^~~~~~
+../Core/Src/main.c:160:11: warning: assignment to 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  160 |     token = strtok(cmdBuffer, " ");
+      |           ^
+../Core/Src/main.c:163:12: warning: assignment to 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  163 |      token = strtok(NULL, " ");
+      |            ^
+../Core/Src/main.c:187:7: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+  187 |    if(strcmp(argv[0],"set")==0){
+      |       ^~~~~~
+../Core/Src/main.c:189:48: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+  189 |      HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, atoi(argv[2]));
+      |                                                ^~~~
+../Core/Src/main.c:190:6: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  190 |      sprintf(uartTxBuffer,"Switch on/off led : %d\r\n",atoi(argv[2]));
+      |      ^~~~~~~
+../Core/Src/main.c:190:6: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:24:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   23 | #include "gpio.h"
+  +++ |+#include <stdio.h>
+   24 | 
+../Core/Src/main.c:190:14: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  190 |      sprintf(uartTxBuffer,"Switch on/off led : %d\r\n",atoi(argv[2]));
+      |              ^~~~~~~~~~~~
+      |              |
+      |              uint8_t * {aka unsigned char *}
+../Core/Src/main.c:190:14: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/main.c:198:33: error: expected ')' before '{' token
+  198 |     if (strcmp(argv[0],"speed=")
+      |        ~                        ^
+      |                                 )
+  199 |     {
+      |     ~                            
+../Core/Src/main.c:214:4: error: expected expression before '}' token
+  214 |    }
+      |    ^
+../Core/Src/main.c:95:8: warning: unused variable 'speedValue' [-Wunused-variable]
+   95 |  int   speedValue = 0;
+      |        ^~~~~~~~~~
+make: *** [Core/Src/subdir.mk:43: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+14:26:58 **** Incremental Build of configuration Debug for project TP_systeme_actionneurs ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:125:3: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  125 |   memset(argv,NULL,MAX_ARGS*sizeof(char*));
+      |   ^~~~~~
+../Core/Src/main.c:125:3: warning: incompatible implicit declaration of built-in function 'memset'
+../Core/Src/main.c:24:1: note: include '<string.h>' or provide a declaration of 'memset'
+   23 | #include "gpio.h"
+  +++ |+#include <string.h>
+   24 | 
+../Core/Src/main.c:125:15: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  125 |   memset(argv,NULL,MAX_ARGS*sizeof(char*));
+      |               ^~~~
+      |               |
+      |               void *
+../Core/Src/main.c:125:15: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:126:20: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  126 |   memset(cmdBuffer,NULL,CMD_BUFFER_SIZE*sizeof(char));
+      |                    ^~~~
+      |                    |
+      |                    void *
+../Core/Src/main.c:126:20: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:127:23: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  127 |   memset(uartRxBuffer,NULL,UART_RX_BUFFER_SIZE*sizeof(char));
+      |                       ^~~~
+      |                       |
+      |                       void *
+../Core/Src/main.c:127:23: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:128:23: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  128 |   memset(uartTxBuffer,NULL,UART_TX_BUFFER_SIZE*sizeof(char));
+      |                       ^~~~
+      |                       |
+      |                       void *
+../Core/Src/main.c:128:23: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:160:13: warning: implicit declaration of function 'strtok' [-Wimplicit-function-declaration]
+  160 |     token = strtok(cmdBuffer, " ");
+      |             ^~~~~~
+../Core/Src/main.c:160:11: warning: assignment to 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  160 |     token = strtok(cmdBuffer, " ");
+      |           ^
+../Core/Src/main.c:163:12: warning: assignment to 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  163 |      token = strtok(NULL, " ");
+      |            ^
+../Core/Src/main.c:187:7: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+  187 |    if(strcmp(argv[0],"set")==0){
+      |       ^~~~~~
+../Core/Src/main.c:189:48: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+  189 |      HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, atoi(argv[2]));
+      |                                                ^~~~
+../Core/Src/main.c:190:6: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  190 |      sprintf(uartTxBuffer,"Switch on/off led : %d\r\n",atoi(argv[2]));
+      |      ^~~~~~~
+../Core/Src/main.c:190:6: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:24:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   23 | #include "gpio.h"
+  +++ |+#include <stdio.h>
+   24 | 
+../Core/Src/main.c:190:14: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  190 |      sprintf(uartTxBuffer,"Switch on/off led : %d\r\n",atoi(argv[2]));
+      |              ^~~~~~~~~~~~
+      |              |
+      |              uint8_t * {aka unsigned char *}
+../Core/Src/main.c:190:14: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+arm-none-eabi-gcc -o "TP_systeme_actionneurs.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Travail\ENSEA\Local_Github_rep\TP_Actionneur\TP_systeme_actionneurs\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP_systeme_actionneurs.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP_systeme_actionneurs.elf
+ 
+arm-none-eabi-size   TP_systeme_actionneurs.elf 
+arm-none-eabi-objdump -h -S  TP_systeme_actionneurs.elf  > "TP_systeme_actionneurs.list"
+   text	   data	    bss	    dec	    hex	filename
+  30868	    272	   1880	  33020	   80fc	TP_systeme_actionneurs.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP_systeme_actionneurs.list
+ 
+14:29:12 **** Incremental Build of configuration Debug for project TP_systeme_actionneurs ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:125:3: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  125 |   memset(argv,NULL,MAX_ARGS*sizeof(char*));
+      |   ^~~~~~
+../Core/Src/main.c:125:3: warning: incompatible implicit declaration of built-in function 'memset'
+../Core/Src/main.c:24:1: note: include '<string.h>' or provide a declaration of 'memset'
+   23 | #include "gpio.h"
+  +++ |+#include <string.h>
+   24 | 
+../Core/Src/main.c:125:15: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  125 |   memset(argv,NULL,MAX_ARGS*sizeof(char*));
+      |               ^~~~
+      |               |
+      |               void *
+../Core/Src/main.c:125:15: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:126:20: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  126 |   memset(cmdBuffer,NULL,CMD_BUFFER_SIZE*sizeof(char));
+      |                    ^~~~
+      |                    |
+      |                    void *
+../Core/Src/main.c:126:20: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:127:23: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  127 |   memset(uartRxBuffer,NULL,UART_RX_BUFFER_SIZE*sizeof(char));
+      |                       ^~~~
+      |                       |
+      |                       void *
+../Core/Src/main.c:127:23: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:128:23: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  128 |   memset(uartTxBuffer,NULL,UART_TX_BUFFER_SIZE*sizeof(char));
+      |                       ^~~~
+      |                       |
+      |                       void *
+../Core/Src/main.c:128:23: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:160:13: warning: implicit declaration of function 'strtok' [-Wimplicit-function-declaration]
+  160 |     token = strtok(cmdBuffer, " ");
+      |             ^~~~~~
+../Core/Src/main.c:160:11: warning: assignment to 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  160 |     token = strtok(cmdBuffer, " ");
+      |           ^
+../Core/Src/main.c:163:12: warning: assignment to 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  163 |      token = strtok(NULL, " ");
+      |            ^
+../Core/Src/main.c:187:7: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+  187 |    if(strcmp(argv[0],"set")==0){
+      |       ^~~~~~
+../Core/Src/main.c:189:48: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+  189 |      HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, atoi(argv[2]));
+      |                                                ^~~~
+../Core/Src/main.c:190:6: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  190 |      sprintf(uartTxBuffer,"Switch on/off led : %d\r\n",atoi(argv[2]));
+      |      ^~~~~~~
+../Core/Src/main.c:190:6: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:24:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   23 | #include "gpio.h"
+  +++ |+#include <stdio.h>
+   24 | 
+../Core/Src/main.c:190:14: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  190 |      sprintf(uartTxBuffer,"Switch on/off led : %d\r\n",atoi(argv[2]));
+      |              ^~~~~~~~~~~~
+      |              |
+      |              uint8_t * {aka unsigned char *}
+../Core/Src/main.c:190:14: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+arm-none-eabi-gcc -o "TP_systeme_actionneurs.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Travail\ENSEA\Local_Github_rep\TP_Actionneur\TP_systeme_actionneurs\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP_systeme_actionneurs.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP_systeme_actionneurs.elf
+ 
+arm-none-eabi-size   TP_systeme_actionneurs.elf 
+arm-none-eabi-objdump -h -S  TP_systeme_actionneurs.elf  > "TP_systeme_actionneurs.list"
+   text	   data	    bss	    dec	    hex	filename
+  30868	    272	   1880	  33020	   80fc	TP_systeme_actionneurs.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP_systeme_actionneurs.list
+ 
+14:30:12 **** Incremental Build of configuration Debug for project TP_systeme_actionneurs ****
+make -j12 all 
+arm-none-eabi-size   TP_systeme_actionneurs.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30868	    272	   1880	  33020	   80fc	TP_systeme_actionneurs.elf
+Finished building: default.size.stdout
+ 
+14:31:44 **** Incremental Build of configuration Debug for project TP_systeme_actionneurs ****
+make -j12 all 
+arm-none-eabi-size   TP_systeme_actionneurs.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30868	    272	   1880	  33020	   80fc	TP_systeme_actionneurs.elf
+Finished building: default.size.stdout
+ 
+14:32:41 **** Incremental Build of configuration Debug for project TP_systeme_actionneurs ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:125:3: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  125 |   memset(argv,NULL,MAX_ARGS*sizeof(char*));
+      |   ^~~~~~
+../Core/Src/main.c:125:3: warning: incompatible implicit declaration of built-in function 'memset'
+../Core/Src/main.c:24:1: note: include '<string.h>' or provide a declaration of 'memset'
+   23 | #include "gpio.h"
+  +++ |+#include <string.h>
+   24 | 
+../Core/Src/main.c:125:15: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  125 |   memset(argv,NULL,MAX_ARGS*sizeof(char*));
+      |               ^~~~
+      |               |
+      |               void *
+../Core/Src/main.c:125:15: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:126:20: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  126 |   memset(cmdBuffer,NULL,CMD_BUFFER_SIZE*sizeof(char));
+      |                    ^~~~
+      |                    |
+      |                    void *
+../Core/Src/main.c:126:20: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:127:23: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  127 |   memset(uartRxBuffer,NULL,UART_RX_BUFFER_SIZE*sizeof(char));
+      |                       ^~~~
+      |                       |
+      |                       void *
+../Core/Src/main.c:127:23: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:128:23: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  128 |   memset(uartTxBuffer,NULL,UART_TX_BUFFER_SIZE*sizeof(char));
+      |                       ^~~~
+      |                       |
+      |                       void *
+../Core/Src/main.c:128:23: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:160:13: warning: implicit declaration of function 'strtok' [-Wimplicit-function-declaration]
+  160 |     token = strtok(cmdBuffer, " ");
+      |             ^~~~~~
+../Core/Src/main.c:160:11: warning: assignment to 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  160 |     token = strtok(cmdBuffer, " ");
+      |           ^
+../Core/Src/main.c:163:12: warning: assignment to 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  163 |      token = strtok(NULL, " ");
+      |            ^
+../Core/Src/main.c:187:7: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+  187 |    if(strcmp(argv[0],"set")==0){
+      |       ^~~~~~
+../Core/Src/main.c:189:48: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+  189 |      HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, atoi(argv[2]));
+      |                                                ^~~~
+../Core/Src/main.c:190:6: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  190 |      sprintf(uartTxBuffer,"Switch on/off led : %d\r\n",atoi(argv[2]));
+      |      ^~~~~~~
+../Core/Src/main.c:190:6: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:24:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   23 | #include "gpio.h"
+  +++ |+#include <stdio.h>
+   24 | 
+../Core/Src/main.c:190:14: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  190 |      sprintf(uartTxBuffer,"Switch on/off led : %d\r\n",atoi(argv[2]));
+      |              ^~~~~~~~~~~~
+      |              |
+      |              uint8_t * {aka unsigned char *}
+../Core/Src/main.c:190:14: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+arm-none-eabi-gcc -o "TP_systeme_actionneurs.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Travail\ENSEA\Local_Github_rep\TP_Actionneur\TP_systeme_actionneurs\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP_systeme_actionneurs.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP_systeme_actionneurs.elf
+ 
+arm-none-eabi-size   TP_systeme_actionneurs.elf 
+arm-none-eabi-objdump -h -S  TP_systeme_actionneurs.elf  > "TP_systeme_actionneurs.list"
+   text	   data	    bss	    dec	    hex	filename
+  30872	    272	   1880	  33024	   8100	TP_systeme_actionneurs.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP_systeme_actionneurs.list
+ 
+14:35:02 **** Incremental Build of configuration Debug for project TP_systeme_actionneurs ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:125:3: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  125 |   memset(argv,NULL,MAX_ARGS*sizeof(char*));
+      |   ^~~~~~
+../Core/Src/main.c:125:3: warning: incompatible implicit declaration of built-in function 'memset'
+../Core/Src/main.c:24:1: note: include '<string.h>' or provide a declaration of 'memset'
+   23 | #include "gpio.h"
+  +++ |+#include <string.h>
+   24 | 
+../Core/Src/main.c:125:15: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  125 |   memset(argv,NULL,MAX_ARGS*sizeof(char*));
+      |               ^~~~
+      |               |
+      |               void *
+../Core/Src/main.c:125:15: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:126:20: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  126 |   memset(cmdBuffer,NULL,CMD_BUFFER_SIZE*sizeof(char));
+      |                    ^~~~
+      |                    |
+      |                    void *
+../Core/Src/main.c:126:20: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:127:23: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  127 |   memset(uartRxBuffer,NULL,UART_RX_BUFFER_SIZE*sizeof(char));
+      |                       ^~~~
+      |                       |
+      |                       void *
+../Core/Src/main.c:127:23: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:128:23: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  128 |   memset(uartTxBuffer,NULL,UART_TX_BUFFER_SIZE*sizeof(char));
+      |                       ^~~~
+      |                       |
+      |                       void *
+../Core/Src/main.c:128:23: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:160:13: warning: implicit declaration of function 'strtok' [-Wimplicit-function-declaration]
+  160 |     token = strtok(cmdBuffer, " ");
+      |             ^~~~~~
+../Core/Src/main.c:160:11: warning: assignment to 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  160 |     token = strtok(cmdBuffer, " ");
+      |           ^
+../Core/Src/main.c:163:12: warning: assignment to 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  163 |      token = strtok(NULL, " ");
+      |            ^
+../Core/Src/main.c:187:7: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+  187 |    if(strcmp(argv[0],"set")==0){
+      |       ^~~~~~
+../Core/Src/main.c:189:48: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+  189 |      HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, atoi(argv[2]));
+      |                                                ^~~~
+../Core/Src/main.c:190:6: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  190 |      sprintf(uartTxBuffer,"Switch on/off led : %d\r\n",atoi(argv[2]));
+      |      ^~~~~~~
+../Core/Src/main.c:190:6: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:24:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   23 | #include "gpio.h"
+  +++ |+#include <stdio.h>
+   24 | 
+../Core/Src/main.c:190:14: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  190 |      sprintf(uartTxBuffer,"Switch on/off led : %d\r\n",atoi(argv[2]));
+      |              ^~~~~~~~~~~~
+      |              |
+      |              uint8_t * {aka unsigned char *}
+../Core/Src/main.c:190:14: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+arm-none-eabi-gcc -o "TP_systeme_actionneurs.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Travail\ENSEA\Local_Github_rep\TP_Actionneur\TP_systeme_actionneurs\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP_systeme_actionneurs.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP_systeme_actionneurs.elf
+ 
+arm-none-eabi-size   TP_systeme_actionneurs.elf 
+arm-none-eabi-objdump -h -S  TP_systeme_actionneurs.elf  > "TP_systeme_actionneurs.list"
+   text	   data	    bss	    dec	    hex	filename
+  30880	    272	   1880	  33032	   8108	TP_systeme_actionneurs.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP_systeme_actionneurs.list
+ 
+14:36:15 **** Incremental Build of configuration Debug for project TP_systeme_actionneurs ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:125:3: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  125 |   memset(argv,NULL,MAX_ARGS*sizeof(char*));
+      |   ^~~~~~
+../Core/Src/main.c:125:3: warning: incompatible implicit declaration of built-in function 'memset'
+../Core/Src/main.c:24:1: note: include '<string.h>' or provide a declaration of 'memset'
+   23 | #include "gpio.h"
+  +++ |+#include <string.h>
+   24 | 
+../Core/Src/main.c:125:15: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  125 |   memset(argv,NULL,MAX_ARGS*sizeof(char*));
+      |               ^~~~
+      |               |
+      |               void *
+../Core/Src/main.c:125:15: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:126:20: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  126 |   memset(cmdBuffer,NULL,CMD_BUFFER_SIZE*sizeof(char));
+      |                    ^~~~
+      |                    |
+      |                    void *
+../Core/Src/main.c:126:20: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:127:23: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  127 |   memset(uartRxBuffer,NULL,UART_RX_BUFFER_SIZE*sizeof(char));
+      |                       ^~~~
+      |                       |
+      |                       void *
+../Core/Src/main.c:127:23: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:128:23: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  128 |   memset(uartTxBuffer,NULL,UART_TX_BUFFER_SIZE*sizeof(char));
+      |                       ^~~~
+      |                       |
+      |                       void *
+../Core/Src/main.c:128:23: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:160:13: warning: implicit declaration of function 'strtok' [-Wimplicit-function-declaration]
+  160 |     token = strtok(cmdBuffer, " ");
+      |             ^~~~~~
+../Core/Src/main.c:160:11: warning: assignment to 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  160 |     token = strtok(cmdBuffer, " ");
+      |           ^
+../Core/Src/main.c:163:12: warning: assignment to 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  163 |      token = strtok(NULL, " ");
+      |            ^
+../Core/Src/main.c:187:7: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+  187 |    if(strcmp(argv[0],"set")==0){
+      |       ^~~~~~
+../Core/Src/main.c:189:48: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+  189 |      HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, atoi(argv[2]));
+      |                                                ^~~~
+../Core/Src/main.c:190:6: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  190 |      sprintf(uartTxBuffer,"Switch on/off led : %d\r\n",atoi(argv[2]));
+      |      ^~~~~~~
+../Core/Src/main.c:190:6: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:24:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   23 | #include "gpio.h"
+  +++ |+#include <stdio.h>
+   24 | 
+../Core/Src/main.c:190:14: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  190 |      sprintf(uartTxBuffer,"Switch on/off led : %d\r\n",atoi(argv[2]));
+      |              ^~~~~~~~~~~~
+      |              |
+      |              uint8_t * {aka unsigned char *}
+../Core/Src/main.c:190:14: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/main.c:198:4: error: expected '}' before 'else'
+  198 |    else if(strcmp(argv[0],"start")==0)
+      |    ^~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:236:1: error: expected identifier or '(' before '}' token
+  236 | }
+      | ^
+make: *** [Core/Src/subdir.mk:43: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+14:36:53 **** Incremental Build of configuration Debug for project TP_systeme_actionneurs ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:125:3: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  125 |   memset(argv,NULL,MAX_ARGS*sizeof(char*));
+      |   ^~~~~~
+../Core/Src/main.c:125:3: warning: incompatible implicit declaration of built-in function 'memset'
+../Core/Src/main.c:24:1: note: include '<string.h>' or provide a declaration of 'memset'
+   23 | #include "gpio.h"
+  +++ |+#include <string.h>
+   24 | 
+../Core/Src/main.c:125:15: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  125 |   memset(argv,NULL,MAX_ARGS*sizeof(char*));
+      |               ^~~~
+      |               |
+      |               void *
+../Core/Src/main.c:125:15: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:126:20: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  126 |   memset(cmdBuffer,NULL,CMD_BUFFER_SIZE*sizeof(char));
+      |                    ^~~~
+      |                    |
+      |                    void *
+../Core/Src/main.c:126:20: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:127:23: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  127 |   memset(uartRxBuffer,NULL,UART_RX_BUFFER_SIZE*sizeof(char));
+      |                       ^~~~
+      |                       |
+      |                       void *
+../Core/Src/main.c:127:23: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:128:23: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  128 |   memset(uartTxBuffer,NULL,UART_TX_BUFFER_SIZE*sizeof(char));
+      |                       ^~~~
+      |                       |
+      |                       void *
+../Core/Src/main.c:128:23: note: expected 'int' but argument is of type 'void *'
+../Core/Src/main.c:160:13: warning: implicit declaration of function 'strtok' [-Wimplicit-function-declaration]
+  160 |     token = strtok(cmdBuffer, " ");
+      |             ^~~~~~
+../Core/Src/main.c:160:11: warning: assignment to 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  160 |     token = strtok(cmdBuffer, " ");
+      |           ^
+../Core/Src/main.c:163:12: warning: assignment to 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  163 |      token = strtok(NULL, " ");
+      |            ^
+../Core/Src/main.c:187:7: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+  187 |    if(strcmp(argv[0],"set")==0){
+      |       ^~~~~~
+../Core/Src/main.c:189:48: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+  189 |      HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, atoi(argv[2]));
+      |                                                ^~~~
+../Core/Src/main.c:190:6: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  190 |      sprintf(uartTxBuffer,"Switch on/off led : %d\r\n",atoi(argv[2]));
+      |      ^~~~~~~
+../Core/Src/main.c:190:6: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:24:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   23 | #include "gpio.h"
+  +++ |+#include <stdio.h>
+   24 | 
+../Core/Src/main.c:190:14: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  190 |      sprintf(uartTxBuffer,"Switch on/off led : %d\r\n",atoi(argv[2]));
+      |              ^~~~~~~~~~~~
+      |              |
+      |              uint8_t * {aka unsigned char *}
+../Core/Src/main.c:190:14: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+arm-none-eabi-gcc -o "TP_systeme_actionneurs.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Travail\ENSEA\Local_Github_rep\TP_Actionneur\TP_systeme_actionneurs\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP_systeme_actionneurs.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP_systeme_actionneurs.elf
+ 
+arm-none-eabi-size   TP_systeme_actionneurs.elf 
+arm-none-eabi-objdump -h -S  TP_systeme_actionneurs.elf  > "TP_systeme_actionneurs.list"
+   text	   data	    bss	    dec	    hex	filename
+  30880	    272	   1880	  33032	   8108	TP_systeme_actionneurs.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP_systeme_actionneurs.list
+ 
