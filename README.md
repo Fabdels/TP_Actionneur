@@ -34,7 +34,3 @@ TP n°2 - Mesure de Vitesse et de courant
 					
 
 	X 2.2 Mesure de vitesse (Timer configuré en Input Compare)
-
-			
-
-	X 2.2 Mesure de vitesse
